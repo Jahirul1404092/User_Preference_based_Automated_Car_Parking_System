@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical"
+    android:background="#C2CFCA">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="40dp"
+        android:text="Smart parking system"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#420303"/>
+
+
+    <TextView
+        android:id="@+id/slottv"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="slot"
+        android:textSize="30sp"/>
+    <EditText
+        android:id="@+id/slotet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter a slot"
+        android:textSize="25sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/keytv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="key"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/dstv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="Enter this code to arduino"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/parkbt"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="park"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="#FFEB3B"/>
+    <Button
+        android:id="@+id/unparkbt"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Unpark"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="#FFEB3B"/>
+    <Button
+        android:id="@+id/okbt"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Ok"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="#FFEB3B"
+        android:visibility="invisible"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="Enter this code to arduino"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="Warning!!!"
+        android:id="@+id/alerm"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:textColor="#670505"
+        android:background="#1B9C1E"
+        android:gravity="center"/>
+
+</LinearLayout>

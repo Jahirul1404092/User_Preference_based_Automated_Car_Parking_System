@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Addmoney"
+    android:orientation="vertical"
+    android:background="#C2CFCA">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="40dp"
+        android:text="Smart parking system"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#420303"/>
+
+
+    <TextView
+        android:id="@+id/blntv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="key"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/bkashimgid"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bkash" />
+
+    <ImageView
+        android:id="@+id/nogodimgid"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:src="@drawable/nogod" />
+    <Button
+        android:id="@+id/gotoparkingtypebt"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Back"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="#FFEB3B"/>
+
+
+</LinearLayout>

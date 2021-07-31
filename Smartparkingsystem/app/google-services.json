@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "739500441242",
+    "firebase_url": "https://autoparkingsystem-aa778-default-rtdb.firebaseio.com",
+    "project_id": "autoparkingsystem-aa778",
+    "storage_bucket": "autoparkingsystem-aa778.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739500441242:android:ccad46f494f8e83c2b6923",
+        "android_client_info": {
+          "package_name": "com.amsa.smartparkingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739500441242-4t0ned6a7c39nbpasqemefbrf4at0psm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amsa.smartparkingsystem",
+            "certificate_hash": "2909812d4fcb3b0c93221c47cf1833540da51ae9"
+          }
+        },
+        {
+          "client_id": "739500441242-2q3ilte7t27kvu9m6tq7fei066rgoi0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9lNxKKlg19sZrP0cjGp11d-pN6sjNbHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739500441242-2q3ilte7t27kvu9m6tq7fei066rgoi0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
